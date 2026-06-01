@@ -1,0 +1,104 @@
+# Brand Marketplace — Master Specification
+
+**Version:** 1.0
+**Owner:** Jason Wineti (Ngāi Tahu)
+**Status:** Patent-Ready | Part of the Unified Platform
+
+---
+
+## 1. Overview
+
+The Brand Marketplace is the commercial layer of the Unified Platform. It enables QSR, retail, sports, FMCG, and entertainment brands to sell digital goods, run gamified challenges, activate reward boosts, build loyalty, and collaborate with creators — all within a youth-safe, identity-verified environment. No personal data is ever shared.
+
+---
+
+## 2. Core Features
+
+### Brand Storefronts
+Verified brands receive customisable storefronts to sell digital cosmetics, game content, lore packs, and experience tickets. All purchases transact in BRICK KOIN or fiat via the internal bridge. Storefront visibility is earned through community rating and Brick Reputation, not paid promotion.
+
+### Brand Questlines
+Multi-step, gamified brand campaigns that reward users with BRICKS and exclusive digital badges. Each questline contains 3–10 tasks spanning creative, gameplay, and hybrid physical-digital challenges. Questlines plug directly into the AI Workforce V2 task engine.
+
+### Brand Season Passes
+30-day themed content drops including exclusive cosmetics, limited challenges, seasonal boosts, event access, and brand lore. Paid in BRICKS. Not a subscription — a one-time digital purchase with progressive unlock.
+
+### Brand Loyalty Tiers
+Kids earn Brand XP by interacting with a brand. Four tiers: Bronze (3 interactions), Silver (10), Gold (25), Diamond (50). Rewards include exclusive cosmetics, bonus BRICK tasks, early access to new items, and special Shed event invitations. Not a financial loyalty programme — a creative engagement ladder.
+
+### Brand Boosts
+Time-limited reward multipliers purchased by brands. 1.5× or 2× boosts applied to gameplay tasks, creative tasks, and hybrid physical-digital events. Brands pre-load a boost wallet with BRICKS. The system deducts automatically.
+
+### Brand Drop Days
+Weekly Friday releases of new cosmetics, challenges, boosts, and lore packs. Creates predictable engagement cycles and marketplace traffic.
+
+### Brand Collabs
+Two or more brands co-create themed cosmetics, hybrid challenges, Shed events, and seasonal passes. Revenue splits configured automatically. Collaboration history and performance metrics tracked.
+
+### Brand-to-Creator Collabs
+Brands hire verified creators (16+) to produce custom cosmetics, lore, mini-games, and challenge packs. BRICKS held in escrow until delivery approved. Creator ratings and portfolio visible in the Creator Directory.
+
+---
+
+## 3. Mission Control Dashboard
+
+Every brand partner accesses a unified command centre:
+
+| Panel | Function |
+|-------|----------|
+| Inventory & Digital Goods | Upload, manage, and track all products |
+| Questlines & Challenges | Build multi-step brand campaigns |
+| Season Pass Manager | Design and launch 30-day passes |
+| Boosts & Drop Days | Schedule multipliers and weekly releases |
+| Loyalty Programme | Configure XP tiers and exclusive rewards |
+| Bundles & Collabs | Build product bundles and manage partnerships |
+| Creator Collab Hub | Hire verified creators for custom content |
+| Analytics & Payouts | Real-time sales, engagement, ROI, and revenue management |
+
+All analytics are privacy-safe. No personal data. No behavioural profiling. No surveillance.
+
+---
+
+## 4. Brand Safe Mode
+
+Parents can toggle:
+- Hide all brand content
+- Show only approved brands
+- Limit brand boosts
+
+Brands see aggregate opt-out rates only. No individual user data.
+
+---
+
+## 5. Revenue Model
+
+| Revenue Stream | Description |
+|----------------|-------------|
+| Marketplace Fee | 5% on all digital goods sold |
+| Boost Purchases | Brands pay BRICKS for reward multipliers |
+| Listing Fees | 10 BRICKS per item listed |
+| Premium Promotion | Brands boost visibility (paid in BRICKS) |
+| Brand Subscriptions | Monthly fee for premium storefront features |
+
+All fees flow into the treasury, funding the reward pool, platform operations, and community grants.
+
+---
+
+## 6. Safety Guarantees
+
+- No access to personal data
+- No behavioural targeting
+- No algorithmic promotion
+- No cross-mode leakage
+- All content youth-safe and parent-reviewable
+- All interactions governed by the Trust Agent Engine
+
+---
+
+## 7. Valuation Impact
+
+The Brand Marketplace contributes **$40M–$120M** to the unified platform valuation, opens a recurring revenue stream from brand partners, and positions the platform as the default youth activation layer for the QSR, FMCG, retail, sports, and entertainment industries.
+
+---
+
+*This specification is part of the Trust OS public technical surface. Core algorithms (VTT-001 to VTT-013) are sealed trade secrets. Full technical due diligence available under NDA.*
