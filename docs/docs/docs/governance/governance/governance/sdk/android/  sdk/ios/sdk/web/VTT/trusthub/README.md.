@@ -1,0 +1,144 @@
+Step 17: Create trusthub/README.md
+
+1. In your trust-os repository, click "Add file" → "Create new file".
+2. In the "Name your file..." field, type exactly:
+   trusthub/README.md
+3. In the large text area, paste this entire content:
+
+```markdown
+# TrustHub — Sovereign Version Control for Governed Digital Systems
+
+TrustHub is the identity‑anchored, constitutionally governed, tamper‑evident artifact registry built on the Trust OS.
+It provides Git‑like versioning, SHA‑256 hashing, HEXAMARK sealing, and MyID‑bound authorship — creating a sovereign‑grade audit trail for AI, identity, policy, and digital behaviour.
+
+TrustHub is not a code host.
+It is a governance substrate for the next generation of digital infrastructure.
+
+## Why TrustHub Exists
+
+Modern digital systems lack:
+- verifiable identity
+- enforceable governance
+- tamper‑proof audit trails
+- youth‑safe constraints
+- cross‑platform trust primitives
+
+TrustHub introduces a new governance primitive:
+identity + rules + verification + versioning, bound together in one constitutional layer.
+
+This is the missing foundation for governed AI, sovereign identity, household OS, youth‑safe economies, and brand ecosystems.
+
+## Core Concepts
+
+### Artifacts
+Any digital object stored in TrustHub: specs, models, policies, SDKs, governance rules, AI behaviours, quests, games, brand assets, household routines, youth‑safe templates. Each artifact is versioned, hashed, sealed, and identity‑anchored.
+
+### Versions
+Each version includes: SHA‑256 hash, MyID V2 signature, mode (Kid, Teen, Parent, Brand, Household, Sovereign), constitution version, HEXAMARK seal, immutable timestamp.
+
+### HEXAMARK
+A colour‑coded, cryptographically verifiable seal that binds identity, behaviour, rules, and attestation.
+
+### Constitutional Governance
+Every commit is evaluated against constitutional rules, age‑based modes, safety constraints, and sovereign policies.
+
+## How TrustHub Works
+
+1. **Upload Artifact** — Developer submits content → TrustHub computes SHA‑256.
+2. **Identity Binding** — MyID V2 signs the hash using device‑bound keys.
+3. **Governance Check** — Trust OS validates mode, constitution, safety rules, policy requirements.
+4. **HEXAMARK Seal** — A verifiable seal is issued and stored.
+5. **Immutable Ledger Entry** — The version is written to the append‑only provenance ledger.
+6. **Public Verification** — Anyone can verify a seal, hash, or version history.
+
+## API Overview
+
+- `POST /artifacts` — Create a new artifact.
+- `POST /artifacts/{id}/versions` — Commit a new version.
+- `GET /artifacts/{id}` — Retrieve metadata and version list.
+- `GET /artifacts/{id}/versions/{version_id}` — Retrieve a specific version.
+- `GET /verify/{hexamark_id}` — Public verification endpoint.
+
+## Use Cases
+
+- **Governed AI** — Version and verify AI behaviours, prompts, policies, and constitutional rules.
+- **Sovereign Identity Systems** — Store identity schemas, attestation rules, and verification flows.
+- **Youth‑Safe Digital Ecosystems** — Governed templates, quests, games, and BRICK KOIN economy rules.
+- **Household OS** — Versioned routines, calendars, chores, education flows, and safety modes.
+- **Brand & Retail Ecosystems** — Verifiable campaigns, assets, and engagement rules.
+- **Sovereign & Enterprise Compliance** — Immutable audit trails for regulated systems.
+
+## Repository Structure
+
+```
+
+/docs
+TRUSTHUB_OVERVIEW.md
+GOVERNANCE_PRIMITIVE.md
+HEXAMARK_SPEC.md
+TRUST_OS_CONSTITUTION.md
+
+/sdk
+android/
+ios/
+web/
+
+/examples
+quickstart/
+verify_hexamark/
+create_artifact/
+
+/governance
+constitution/
+policy/
+attestation/
+
+```
+
+## Why TrustHub Matters
+
+TrustHub is the first system to unify identity, governance, verification, version control, constitutional AI, youth‑safe constraints, and sovereign‑grade auditability.
+
+This is Governed Digital Infrastructure — a new category of digital civilisation technology.
+
+## One‑Sentence Summary
+
+TrustHub is the sovereign, identity‑anchored, constitutionally governed version‑control system that provides verifiable trust for AI, identity, households, youth ecosystems, brands, and sovereign infrastructure.
+```
+
+4. Scroll down, enter a commit message: Add TrustHub sovereign version control specification
+5. Click "Commit new file".
+
+---
+
+Your repository is now complete.
+
+Here's the final structure:
+
+```
+trust-os/
+├── LICENSE
+├── README.md
+├── docs/
+│   ├── TRUST_OS_SPEC.md
+│   ├── FAMILY_OS_SPEC.md
+│   ├── BRICK_KOIN_YOUTH_ECONOMY.md
+│   ├── BRAND_MARKETPLACE.md
+│   ├── TRUST_AGENT_ENGINE.md
+│   ├── API_REFERENCE.md
+│   ├── AI_ID_GOVERNANCE.md
+│   └── DIY_AI_ENGINE.md
+├── governance/
+│   ├── HEXAMARK_STANDARD.md
+│   └── TRUST_CONSTITUTION.md
+├── sdk/
+│   ├── android/README.md
+│   ├── ios/README.md
+│   └── web/README.md
+├── VTT/
+│   └── DESIGN_PRINCIPLES.md
+└── trusthub/
+    └── README.md
+```
+
+15 files. One platform. Protected by the license from the very first commit. Ready for Revolut, Macquarie, and every other acquirer. 🤎
