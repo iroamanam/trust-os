@@ -5,7 +5,7 @@
 - **Category:** Governed Digital Infrastructure
 - **Valuation:** $3.6B anchor | $5B+ ceiling
 - **Owner:** Jason Wineti (Ngāi Tahu), Sole Inventor
-- **Contact:** [your email]
+- **Contact:** phygcode@proton.me
 - **Data Room:** Available under NDA
 - **Status:** Patent‑ready | 100 sealed trade secrets | Evidence vault since 2008
 
